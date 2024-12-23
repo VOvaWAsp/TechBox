@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.title {
+font-weight: 700;
+font-size: 40px;
+color: #000;
+}
+
+.subtitleSales {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+color: #000;
+text-align: right;
+}
+
+.subtitle {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+color: #000;
+}
+
+.salesBlock {
+    display: flex;
+    padding: 32px 24px;
+    width: 305px;
+    height: 240px;
+    background: url(https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?cs=srgb&dl=pexels-elina-araja-1743227-3377405.jpg&fm=jpg);
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.actionBlock {
+    display: flex;
+    padding: 32px 24px;
+    width: 532px;
+    height: 240px;
+    background: url(https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?cs=srgb&dl=pexels-elina-araja-1743227-3377405.jpg&fm=jpg);
+    align-items: flex-end;
+    justify-content: flex-start;
+}
